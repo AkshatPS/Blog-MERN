@@ -1,0 +1,44 @@
+.aboutContainer{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.aboutContainer p {
+    line-height: 1.6;
+    font-family: "Varela Round", Arial, Helvetica, sans-serif;
+}
+
+.aboutHeader{
+    margin-bottom: 20px;
+    font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
+}
+
+.aboutSecondHeader{
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.hero-section {
+    background-image: url('https://images.unsplash.com/photo-1493612276216-ee3925520721?q=80&w=1364&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.hero-section p {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}

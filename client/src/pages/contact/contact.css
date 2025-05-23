@@ -1,0 +1,76 @@
+.contactContainer{
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 30px 60px;
+    text-align: center;
+    font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contactHeader {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.contactContainer p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: #333;
+    line-height: 1.5;
+}
+
+.contactForm{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.formGroup{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.formGroup label {
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: #333;
+}
+
+.formGroup input,
+.formGroup textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.formGroup textarea {
+    height: 150px;
+    resize: none;
+}
+
+.formSubmitButton {
+    background-color: #386641;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.formSubmitButton:hover {
+    background-color: #45a049;
+}
+
+.statusMessage {
+    margin-top: 20px;
+    text-align: center;
+}
