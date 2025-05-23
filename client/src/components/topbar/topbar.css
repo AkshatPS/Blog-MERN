@@ -7,7 +7,7 @@
     display: flex;
     align-items: center;
     z-index: 999;
-    font-family: "Josefin Sans", sans-serif;
+    font-family: "Times New Roman", Times, serif;
   }
   
   .topLeft,
@@ -40,8 +40,9 @@
   .topListItem {
     margin-right: 20px;
     font-size: 20px;
-    font-weight: 300;
+    font-weight: 150;
     cursor: pointer;
+    color: #444;
   }
   
   .topListItem:hover{

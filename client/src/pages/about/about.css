@@ -6,12 +6,12 @@
 
 .aboutContainer p {
     line-height: 1.6;
-    font-family: "Varela Round", Arial, Helvetica, sans-serif;
+    font-family: "Times New Roman", Times, serif;
 }
 
 .aboutHeader{
     margin-bottom: 20px;
-    font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
+    font-family: "Times New Roman", Times, serif;
 }
 
 .aboutSecondHeader{
@@ -20,7 +20,7 @@
 }
 
 .hero-section {
-    background-image: url('https://images.unsplash.com/photo-1493612276216-ee3925520721?q=80&w=1364&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-image: url('https://images.pexels.com/photos/267389/pexels-photo-267389.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
     background-size: cover;
     background-position: center;
     height: 400px;
